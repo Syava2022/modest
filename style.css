@@ -273,16 +273,18 @@ h4 {
 .lovely-block {
 	position: relative;
 	cursor: pointer;
-	width: 360px;
-	height: 265px;
+
 	margin-bottom: 30px;
+}
+.lovely-block>img {
+	width: 100%;
 }
 .dark-bg {
 	position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 360px;
+    width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.281);
 	background-image: url(images/Plus.png);
@@ -342,6 +344,7 @@ h4 {
 .features-block>img {
 	margin-bottom: 50px;
 	margin-top: 10px;
+	width: 100%;
 }
 .features-block h3 {
 	margin-bottom: 20px;
@@ -368,7 +371,7 @@ h4 {
 .contact-button>button {
 	background-color: #23b7a4;
 	position: absolute;
-	top: 30px;
+	top: 50%;
 	margin-left: 30px;
 }
 .contact-button {
@@ -391,5 +394,4 @@ h4 {
 	cursor: pointer;
 	background-repeat: no-repeat;
 	background-position: center;
-
 }

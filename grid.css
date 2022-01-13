@@ -223,6 +223,9 @@
     .row {
 		justify-content: center;
 	}
+	.social-foo {
+	margin-bottom: 15px;
+	}
 }
 
 @media (max-width:1210px) {
