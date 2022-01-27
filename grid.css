@@ -283,11 +283,11 @@
         opacity: 1;
         visibility: visible;
         top:80px;
-        transform: translateX(100%);
+        transform: translateX(70%);
 		overflow:auto;
 		position: fixed;
 		z-index: 50;
-		border: 1px solid white
+		height: 150px;
     }
 	.row-header {
 		display: flex;
@@ -298,8 +298,6 @@
 
 	nav ul li {
 		line-height: 30px;
-		width: 50px;
-
 	}
 
 	.menu {
