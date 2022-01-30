@@ -265,7 +265,7 @@
 		opacity: 0;
 		visibility: hidden;		
 		transition: .25ms  ease-in-out;	
-
+		z-index: 100;
 	}
 
 	.nav-mobile-menu.active-menu span:nth-child(1) {
@@ -304,6 +304,11 @@
 		flex-direction: column;
 		background-color: #1d2126;
 		text-align: left;
+	}
+	.header {
+		position: fixed;
+		min-width:100%;
+		z-index: 100;
 	}
 }
 
